@@ -21,7 +21,7 @@
     PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/AllAboutSanDiego.htm"
+    Link="/Content/AllAboutMacon.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
