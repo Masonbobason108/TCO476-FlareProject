@@ -35,7 +35,7 @@
     PageType="firstright" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoAttractions.htm"
+    Link="/Content/Higher Education.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
