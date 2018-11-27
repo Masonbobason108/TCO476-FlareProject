@@ -43,7 +43,7 @@
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoCuisine.htm"
+    Link="/Content/Music Scene.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"

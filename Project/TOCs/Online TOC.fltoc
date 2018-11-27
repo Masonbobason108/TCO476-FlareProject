@@ -9,7 +9,7 @@
     Link="/Content/Higher Education.htm"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoCuisine.htm">
+    Link="/Content/Music Scene.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Food.htm" />
