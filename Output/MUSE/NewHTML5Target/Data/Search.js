@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/AllAboutMacon.htm'],s:['000'],p:[['000',5]]});

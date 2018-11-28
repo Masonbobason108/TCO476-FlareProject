@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="http://www.alesmith.com/" />
+    <Link
+      Url="http://www.balboapark.org/" />
+    <Link
+      Url="http://www.ballastpoint.com/" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/Culture_of_San_Diego" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/List_of_people_from_San_Diego" />
+    <Link
+      Url="http://sandiego.padres.mlb.com/sd/ballpark/" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/San_Diego" />
+    <Link
+      Url="http://www.hribar.com/san-diego-microclimate.html" />
+    <Link
+      Url="http://zoo.sandiegozoo.org/" />
+    <Link
+      Url="http://www.sandiego.org/articles/dining-nightlife/san-diegos-gourmet-food-truck-revolution.aspx" />
+    <Link
+      Url="http://www.stonebrewing.com/" />
+    <Link
+      Url="http://www.westcoastersd.com/sd-brewing-industry-watch/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="http://www.alesmith.com/" />
+    <Link
+      Url="http://www.balboapark.org/" />
+    <Link
+      Url="http://www.ballastpoint.com/" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/Culture_of_San_Diego" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/List_of_people_from_San_Diego" />
+    <Link
+      Url="http://sandiego.padres.mlb.com/sd/ballpark/" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/San_Diego" />
+    <Link
+      Url="http://www.hribar.com/san-diego-microclimate.html" />
+    <Link
+      Url="http://zoo.sandiegozoo.org/" />
+    <Link
+      Url="http://www.sandiego.org/articles/dining-nightlife/san-diegos-gourmet-food-truck-revolution.aspx" />
+    <Link
+      Url="http://www.stonebrewing.com/" />
+    <Link
+      Url="http://www.westcoastersd.com/sd-brewing-industry-watch/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

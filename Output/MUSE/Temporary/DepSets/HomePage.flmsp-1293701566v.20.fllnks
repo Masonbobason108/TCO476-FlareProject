@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0"
+  FileDescription="">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/SanDiegoLogoTransparent.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="https://twitter.com/" />
+    <Link
+      Url="Content/Resources/Images/TwitterIcon.png" />
+    <Link
+      Url="http://www.facebook.com/madcapdocteam" />
+    <Link
+      Url="Content/Resources/Images/FacebookIcon.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/SanDiegoLogoTransparent.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="https://twitter.com/#!/MadCapDocTeam" />
+    <Link
+      Url="Content/Resources/Images/TwitterIcon.png" />
+    <Link
+      Url="http://www.facebook.com/madcapdocteam" />
+    <Link
+      Url="Content/Resources/Images/FacebookIcon.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.Year" />
+    <Variable
+      Name="General.CompanyName" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
