@@ -4,35 +4,47 @@
   BuildVersion="14.1.6875.33553">
   <Files>
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/DropDownOpen.png" />
-    <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/The Rookery.jpg" />
-    <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/The Hummingbird.jpg" />
-    <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/Parish.jpg" />
-    <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/Spud Dogs.jpg" />
-    <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/The Bears Den.jpg" />
-    <Url
       Source="Output/MUSE/All About San Diego PDF/All About San Diego PDF.pdf" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/HeroImage.jpg" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/H&amp;H.jpg" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/TableStyles/Simple.css" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Wesleyan College.jpg" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/growler_usa-3443_web.jpg" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Macon, GA.jpg" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/jt-macon-1024x683.jpg" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/DropDownOpen.png" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/reboot-macon-ga-1.jpg" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Parish.jpg" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/H&amp;H.jpg" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/The Rookery.jpg" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/Ocmulgee Brewpub.jpg" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/growler_usa-3443_web.jpg" />
     <Url
-      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_128941EB/Resources/Images/DropDownClosed.png" />
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Georgia College.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/HeroImage.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Spud Dogs.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/TableStyles/Simple.css" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Mercer.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/The Bears Den.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Middle Georgia State.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Ocmulgee Brewpub.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/The Hummingbird.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/jt-macon-1024x683.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/Central Georgia Technical College.jpg" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/DropDownClosed.png" />
+    <Url
+      Source="Output/MUSE/Temporary/All About San Diego PDF/All About San Diego PDF_3181115E/Resources/Images/reboot-macon-ga-1.jpg" />
   </Files>
   <Skins />
 </CatapultTargetOutput>

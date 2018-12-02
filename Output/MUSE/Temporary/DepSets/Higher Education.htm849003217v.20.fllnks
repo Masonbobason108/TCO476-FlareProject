@@ -4,8 +4,30 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Content/Resources/Images/Central Georgia Technical College.jpg" />
+    <Link
+      Url="Content/Resources/Images/Wesleyan College.jpg" />
+    <Link
+      Url="Content/Resources/Images/Mercer.jpg" />
+    <Link
+      Url="Content/Resources/Images/Middle Georgia State.jpg" />
+    <Link
+      Url="Content/Resources/Images/Georgia College.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/Central Georgia Technical College.jpg" />
+    <Link
+      Url="Content/Resources/Images/Wesleyan College.jpg" />
+    <Link
+      Url="Content/Resources/Images/Mercer.jpg" />
+    <Link
+      Url="Content/Resources/Images/Middle Georgia State.jpg" />
+    <Link
+      Url="Content/Resources/Images/Georgia College.jpg" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />

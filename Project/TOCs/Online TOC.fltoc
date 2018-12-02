@@ -12,9 +12,9 @@
     Link="/Content/Music Scene.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Food.htm" />
+      Link="/Content/Bars.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Bars.htm" />
+      Link="/Content/Food.htm" />
   </TocEntry>
 </CatapultToc>
