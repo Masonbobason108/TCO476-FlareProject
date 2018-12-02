@@ -16,7 +16,7 @@
 		display: block;
 		height: 100%;
 		overflow-x: hidden;
-		background-color: #333333;
+		background-color: #45494c;
 	}
 
 	/* Foundation Overrides */
@@ -52,14 +52,16 @@
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
 		background: #878787;
-		background: -moz-linear-gradient(top, #878787 0%, #878787 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#878787), color-stop(100%,#878787));
-		background: -webkit-linear-gradient(top, #878787 0%, #878787 100%);
-		background: -o-linear-gradient(top, #878787 0%,#878787 100%);
-		background: -ms-linear-gradient(top, #878787 0%,#878787 100%);
-		background: linear-gradient(top, #878787 0%,#878787 100%);
-		-pie-background: linear-gradient(#878787, #878787);
+		background: -moz-linear-gradient(top, #000000 0%, #800000 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#800000));
+		background: -webkit-linear-gradient(top, #000000 0%, #800000 100%);
+		background: -o-linear-gradient(top, #000000 0%,#800000 100%);
+		background: -ms-linear-gradient(top, #000000 0%,#800000 100%);
+		background: linear-gradient(top, #000000 0%,#800000 100%);
+		-pie-background: linear-gradient(#000000, #800000);
 	}
 
 	/* Topbar Menu Styles */
@@ -84,11 +86,18 @@
 
 	.title-bar-layout a.logo
 	{
-		background-position: center center;
 		top: 0;
 		margin: 0;
-		background-repeat: no-repeat;
-		background: transparent url('Images/GeneralGreenLogo.png') no-repeat center center;
+		width: 431px;
+		height: 77px;
+		background: transparent url('Images/Logo 1.jpg') no-repeat center center;
+		background: url('Images/Logo 1.jpg') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/Logo 1.jpg') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/Logo 1.jpg') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/Logo 1.jpg') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/Logo 1.jpg') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/Logo 1.jpg') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Fluid/Stylesheets/Images/Logo 1.jpg') no-repeat center center, linear-gradient(transparent, transparent);
 	}
 
 	.title-bar .menu-icon span
@@ -189,7 +198,7 @@
 		font-size: 1em;
 		border-bottom: solid 1px #262626;
 		line-height: 1;
-		color: #C1C1C1;
+		color: #ffffff;
 	}
 
 	ul.off-canvas-accordion ul > li > a
@@ -252,6 +261,8 @@
 	.body-container
 	{
 		overflow: inherit;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	.off-canvas-wrapper-inner nav.title-bar .outer-row
@@ -261,18 +272,19 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 40px;
+		min-height: 77px;
 		flex-basis: 100%;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 40px;
+		min-height: 77px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row
 	{
-		
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 	.main-section > .outer-row
@@ -308,6 +320,11 @@
 	ul.off-canvas-list li.js-drilldown-back > a
 	{
 		
+	}
+
+	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-top-color: #a1a8ac;
 	}
 
 	ul.off-canvas-list li a.selected
@@ -460,12 +477,14 @@
 
 	.nav-search-wrapper
 	{
+		justify-content: center;
 		flex-basis: 100%;
 	}
 
 	.nav-search
 	{
-		
+		width: 100%;
+		margin-top: 15px;
 	}
 
 	.search-bar .search-field
@@ -476,7 +495,7 @@
 
 	.search-filter-content
 	{
-		top: 2em;
+		top: 0em;
 		background-color: #ffffff;
 	}
 
@@ -494,7 +513,7 @@
 	.search-bar .search-filter.selected
 	{
 		background-repeat: no-repeat;
-		background: transparent url('Images/Filter.png') no-repeat center center;
+		background: transparent url('Images/icon-filter-selected.png') no-repeat center center;
 	}
 
 	.search-filter-content ul li:hover

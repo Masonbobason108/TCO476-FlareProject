@@ -17,7 +17,7 @@ body
 .off-canvas-content
 {
 	min-height: 100vh;
-	overflow: auto;
+	overflow: inherit;
 }
 
 .off-canvas-content .outer-row
@@ -27,9 +27,9 @@ body
 
 .main-section > .outer-row
 {
-	max-width: 62.5em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	max-width: 100%;
+	padding-top: 0em;
+	padding-bottom: 0em;
 }
 
 img
@@ -72,6 +72,7 @@ ul.navigation
 	font-weight: normal;
 	padding-left: 10px;
 	padding-right: 10px;
+	display: none;
 }
 
 ul.navigation,
@@ -87,7 +88,7 @@ ul.navigation ul
 	margin: 0;
 	padding: 10px 0 10px 0;
 	position: absolute;
-	background-color: #686868;
+	background-color: transparent;
 }
 
 ul.navigation > li > ul.openLeft
@@ -112,7 +113,7 @@ ul.navigation > li.has-children:after
 	bottom: 0;
 	left: 50%;
 	margin-left: -8px;
-	border-bottom-color: #686868;
+	border-bottom-color: transparent;
 }
 
 ul.navigation ul,
@@ -131,7 +132,7 @@ ul.navigation ul ul
 {
 	top: 0;
 	left: 100%;
-	background-color: #686868;
+	background-color: transparent;
 }
 
 ul.navigation ul ul.openLeft
@@ -160,6 +161,7 @@ ul.navigation li
 	position: relative;
 	list-style: none;
 	margin: 0;
+	background-color: transparent;
 }
 
 ul.navigation li > a
@@ -335,16 +337,16 @@ nav.title-bar
 	display: block;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background: #878787;
-	background: -moz-linear-gradient(top, #878787 0%, #878787 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#878787), color-stop(100%,#878787));
-	background: -webkit-linear-gradient(top, #878787 0%, #878787 100%);
-	background: -o-linear-gradient(top, #878787 0%,#878787 100%);
-	background: -ms-linear-gradient(top, #878787 0%,#878787 100%);
-	background: linear-gradient(top, #878787 0%,#878787 100%);
-	-pie-background: linear-gradient(#878787, #878787);
+	background: -moz-linear-gradient(top, #000000 0%, #800000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#800000));
+	background: -webkit-linear-gradient(top, #000000 0%, #800000 100%);
+	background: -o-linear-gradient(top, #000000 0%,#800000 100%);
+	background: -ms-linear-gradient(top, #000000 0%,#800000 100%);
+	background: linear-gradient(top, #000000 0%,#800000 100%);
+	-pie-background: linear-gradient(#000000, #800000);
 }
 
 nav.title-bar .menu-icon
@@ -380,9 +382,10 @@ nav.title-bar .menu-icon
 	display: flex;
 	flex: 0 1 auto;
 	order: 1;
-	min-height: 42px;
+	min-height: 77px;
 	align-self: center;
 	justify-content: flex-start;
+	flex-basis: auto;
 }
 
 .title-bar-layout a.logo
@@ -392,11 +395,17 @@ nav.title-bar .menu-icon
 	margin: 0;
 	z-index: 1;
 	display: block;
-	width: 176px;
-	height: 42px;
+	width: 431px;
+	height: 77px;
 	align-self: center;
-	background: transparent url('Images/GeneralGreenLogo.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/GeneralGreenLogo.png') no-repeat center center;
+	background: transparent url('Images/Logo 1.jpg') no-repeat center center;
+	background: url('Images/Logo 1.jpg') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: url('Images/Logo 1.jpg') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: url('Images/Logo 1.jpg') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: url('Images/Logo 1.jpg') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: url('Images/Logo 1.jpg') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: url('Images/Logo 1.jpg') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: url('Skins/Fluid/Stylesheets/Images/Logo 1.jpg') no-repeat center center, linear-gradient(transparent, transparent);
 }
 
 .title-bar-container
@@ -425,8 +434,8 @@ nav.title-bar .menu-icon
 	flex: 1 1 auto;
 	display: flex;
 	order: 3;
-	justify-content: center;
-	flex-basis: 100%;
+	justify-content: flex-end;
+	flex-basis: auto;
 }
 
 .nav-search
@@ -437,8 +446,8 @@ nav.title-bar .menu-icon
 	margin-right: 0;
 	max-width: none;
 	display: block;
-	width: 100%;
-	margin-top: 10px;
+	width: 0px;
+	margin-top: 0px;
 }
 
 .search-bar
@@ -453,15 +462,15 @@ nav.title-bar .menu-icon
 	top: 0;
 	left: 0;
 	position: relative;
-	height: 2em;
+	height: 0em;
 	border-top: none;
 	border-right: none;
 	border-bottom: none;
 	border-left: none;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
 	color: #5F5F5F;
 	font-size: 1em;
 	padding-left: 10px;
@@ -483,20 +492,20 @@ nav.title-bar .menu-icon
 	line-height: 2em;
 	padding-right: 5px;
 	cursor: pointer;
-	height: 2em;
+	height: 0em;
 	border-top: none;
 	border-bottom: none;
 	border-right: solid 1px #000000;
 	border-left: solid 1px #000000;
 	width: 45px;
-	background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
-	-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/FilterOutline.png') no-repeat center center;
+	background: #ffffff url('Images/icon-filter.png') no-repeat center center;
+	-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/icon-filter.png') no-repeat center center;
 }
 
 .search-bar .search-filter.selected
 {
-	background: transparent url('Images/Filter.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Filter.png') no-repeat center center;
+	background: transparent url('Images/icon-filter-selected.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-filter-selected.png') no-repeat center center;
 }
 
 .search-bar .search-filter.open
@@ -511,7 +520,7 @@ nav.title-bar .menu-icon
 	position: absolute;
 	top: 0;
 	font-size: 1em;
-	right: 56px;
+	right: 36px;
 }
 
 .search-filter-content
@@ -527,7 +536,7 @@ nav.title-bar .menu-icon
 	overflow: auto;
 	z-index: 1;
 	white-space: nowrap;
-	top: 2em;
+	top: 0em;
 	color: #888888;
 	background-color: #ffffff;
 }
@@ -570,7 +579,7 @@ ul.off-canvas-list li
 .sidenav-layout
 {
 	flex-direction: row;
-	display: block;
+	display: flex;
 }
 
 .sidenav-layout.row::before,
@@ -588,9 +597,17 @@ html[dir='rtl'] .sidenav-layout
 {
 	flex: 0 1 auto;
 	overflow: auto;
+	background-position: top center;
 	width: 20%;
-	display: none;
-	background-color: #45494c;
+	display: block;
+	background: #45494c;
+	background: -moz-linear-gradient(top, #800000 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#800000), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top, #800000 0%, #000000 100%);
+	background: -o-linear-gradient(top, #800000 0%,#000000 100%);
+	background: -ms-linear-gradient(top, #800000 0%,#000000 100%);
+	background: linear-gradient(top, #800000 0%,#000000 100%);
+	-pie-background: linear-gradient(#800000, #000000);
 }
 
 .sidenav-wrapper ul ul.is-accordion-submenu
@@ -601,7 +618,10 @@ html[dir='rtl'] .sidenav-layout
 .body-container
 {
 	flex: 1 1;
-	overflow: inherit;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	overflow: auto;
 }
 
 ul.sidenav ul > li > a
@@ -644,19 +664,20 @@ html.pulseTopic .main-section .row.outer-row
 
 .off-canvas-wrapper-inner nav.title-bar .outer-row
 {
-	
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .menu-icon-container
 {
-	min-height: 42px;
+	min-height: 77px;
 }
 
 .off-canvas-wrapper-inner .outer-row
 {
-	max-width: 62.5em;
-	padding-left: 1em;
-	padding-right: 1em;
+	max-width: 100%;
+	padding-left: 0em;
+	padding-right: 0em;
 }
 
 .search-auto-complete ul
@@ -669,10 +690,10 @@ html.pulseTopic .main-section .row.outer-row
 	border-right: solid 1px #808080;
 	border-bottom: solid 1px #808080;
 	border-left: solid 1px #808080;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
 	background-color: #ffffff;
 }
 
@@ -828,18 +849,18 @@ html.pulseTopic .main-section .row.outer-row
 
 .search-bar .search-submit
 {
-	height: 2em;
+	height: 0em;
 	border-top: none;
 	border-right: none;
 	border-bottom: none;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 .search-bar .search-filter:hover
 {
-	background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
-	-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/FilterOutline.png') no-repeat center center;
+	background: #ffffff url('Images/icon-filter.png') no-repeat center center;
+	-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/icon-filter.png') no-repeat center center;
 }
 
 #resultList .glossary .definition
@@ -972,15 +993,15 @@ h1#results-heading
 
 .search-bar.search-bar-container .search-submit
 {
-	width: 56px;
-	background: #1DFFF9 url('Images/SearchIcon.png') no-repeat center center;
-	-pie-background: #1DFFF9 url('Skins/Fluid/Stylesheets/Images/SearchIcon.png') no-repeat center center;
+	width: 36px;
+	background: #1DFFF9 url('Images/icon-search.png') no-repeat center center;
+	-pie-background: #1DFFF9 url('Skins/Fluid/Stylesheets/Images/icon-search.png') no-repeat center center;
 }
 
 .search-bar.search-bar-container .search-submit:hover
 {
-	background: #1DFFF9 url('Images/SearchIcon.png') no-repeat center center;
-	-pie-background: #1DFFF9 url('Skins/Fluid/Stylesheets/Images/SearchIcon.png') no-repeat center center;
+	background: #1DFFF9 url('Images/icon-search.png') no-repeat center center;
+	-pie-background: #1DFFF9 url('Skins/Fluid/Stylesheets/Images/icon-search.png') no-repeat center center;
 }
 
 .phrase-suggest
@@ -995,7 +1016,14 @@ h1#results-heading
 
 .sidenav-container ul ul
 {
-	background-color: #45494c;
+	background: #45494c;
+	background: -moz-linear-gradient(top, #800000 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#800000), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top, #800000 0%, #000000 100%);
+	background: -o-linear-gradient(top, #800000 0%,#000000 100%);
+	background: -ms-linear-gradient(top, #800000 0%,#000000 100%);
+	background: linear-gradient(top, #800000 0%,#000000 100%);
+	-pie-background: linear-gradient(#800000, #000000);
 }
 
 .sidenav-container
@@ -1070,7 +1098,7 @@ ul.navigation ul ul a
 
 ul.navigation ul ul ul
 {
-	background-color: #686868;
+	background-color: transparent;
 }
 
 ul.navigation ul ul ul a
@@ -1080,7 +1108,7 @@ ul.navigation ul ul ul a
 
 ul.navigation ul ul ul ul
 {
-	background-color: #686868;
+	background-color: transparent;
 }
 
 ul.navigation ul ul ul ul a

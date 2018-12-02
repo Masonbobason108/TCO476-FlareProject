@@ -4,8 +4,14 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Content/Resources/Images/LIve_Music_Greg.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/LIve_Music_Greg.jpg" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
