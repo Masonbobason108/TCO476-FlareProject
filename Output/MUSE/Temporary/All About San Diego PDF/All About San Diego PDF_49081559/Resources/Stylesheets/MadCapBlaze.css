@@ -74,7 +74,6 @@ td.GenTOCText1
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -85,6 +84,7 @@ td.GenTOCText1
 	text-align: inherit;
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
+	font-family: 'Baskerville Old Face';
 	font-weight: bold;
 }
 
@@ -114,7 +114,6 @@ a.GenTOCText1:link
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -124,6 +123,7 @@ a.GenTOCText1:link
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
 	color: black;
+	font-family: 'Baskerville Old Face';
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -154,7 +154,6 @@ a.GenTOCText1
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -164,6 +163,7 @@ a.GenTOCText1
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
 	color: black;
+	font-family: 'Baskerville Old Face';
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -194,7 +194,6 @@ td.GenTOCAutoText1
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -204,6 +203,7 @@ td.GenTOCAutoText1
 	text-decoration: inherit;
 	text-align: inherit;
 	margin: 0;
+	font-family: 'Baskerville Old Face';
 	font-weight: bold;
 }
 
@@ -233,7 +233,6 @@ td.GenTOCPageText1
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -243,6 +242,7 @@ td.GenTOCPageText1
 	text-decoration: inherit;
 	margin: 0;
 	vertical-align: bottom;
+	font-family: 'Baskerville Old Face';
 	font-weight: bold;
 	text-align: right;
 	white-space: normal;
@@ -358,7 +358,6 @@ td.GenTOCText2
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -369,6 +368,7 @@ td.GenTOCText2
 	text-align: inherit;
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
+	font-family: 'Baskerville Old Face';
 }
 
 a.GenTOCText2:link
@@ -397,7 +397,6 @@ a.GenTOCText2:link
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -407,6 +406,7 @@ a.GenTOCText2:link
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
 	color: black;
+	font-family: 'Baskerville Old Face';
 	text-decoration: none;
 }
 
@@ -436,7 +436,6 @@ a.GenTOCText2
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -446,6 +445,7 @@ a.GenTOCText2
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
 	color: black;
+	font-family: 'Baskerville Old Face';
 	text-decoration: none;
 }
 
@@ -475,7 +475,6 @@ td.GenTOCAutoText2
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -485,6 +484,7 @@ td.GenTOCAutoText2
 	text-decoration: inherit;
 	text-align: inherit;
 	margin: 0;
+	font-family: 'Baskerville Old Face';
 }
 
 td.GenTOCPageText2
@@ -513,7 +513,6 @@ td.GenTOCPageText2
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -523,6 +522,7 @@ td.GenTOCPageText2
 	text-decoration: inherit;
 	margin: 0;
 	vertical-align: bottom;
+	font-family: 'Baskerville Old Face';
 	text-align: right;
 	white-space: normal;
 }
@@ -591,7 +591,6 @@ td.GenTOCText3
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -602,6 +601,7 @@ td.GenTOCText3
 	text-align: inherit;
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
+	font-family: 'Baskerville Old Face';
 }
 
 a.GenTOCText3:link
@@ -630,7 +630,6 @@ a.GenTOCText3:link
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -640,6 +639,7 @@ a.GenTOCText3:link
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
 	color: black;
+	font-family: 'Baskerville Old Face';
 	text-decoration: none;
 }
 
@@ -669,7 +669,6 @@ a.GenTOCText3
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -679,6 +678,7 @@ a.GenTOCText3
 	mc-leader-format: '.';
 	mc-leader-indent: 5pt;
 	color: black;
+	font-family: 'Baskerville Old Face';
 	text-decoration: none;
 }
 
@@ -708,7 +708,6 @@ td.GenTOCAutoText3
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -718,6 +717,7 @@ td.GenTOCAutoText3
 	text-decoration: inherit;
 	text-align: inherit;
 	margin: 0;
+	font-family: 'Baskerville Old Face';
 }
 
 td.GenTOCPageText3
@@ -746,7 +746,6 @@ td.GenTOCPageText3
 	background-image: none;
 	float: inherit;
 	font-size: inherit;
-	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
 	text-transform: inherit;
@@ -756,6 +755,7 @@ td.GenTOCPageText3
 	text-decoration: inherit;
 	margin: 0;
 	vertical-align: bottom;
+	font-family: 'Baskerville Old Face';
 	text-align: right;
 	white-space: normal;
 }
