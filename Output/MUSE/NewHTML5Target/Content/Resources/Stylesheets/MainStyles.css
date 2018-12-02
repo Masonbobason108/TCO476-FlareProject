@@ -27,10 +27,11 @@ a.MCBreadcrumbsLink:hover
 h1
 {
 	font-size: 1.5em;
-	font-weight: normal;
 	margin-bottom: 8px;
 	margin-top: 20px;
 	padding-bottom: 10px;
+	font-family: 'Baskerville Old Face';
+	font-weight: bold;
 }
 
 h2
@@ -39,6 +40,7 @@ h2
 	font-weight: normal;
 	margin-bottom: 4px;
 	margin-top: 20px;
+	font-family: 'Baskerville Old Face';
 }
 
 h3
@@ -47,11 +49,12 @@ h3
 	font-weight: normal;
 	margin-bottom: 4px;
 	margin-top: 16px;
+	font-family: 'Baskerville Old Face';
 }
 
 h4
 {
-	
+	font-family: 'Baskerville Old Face';
 }
 
 li
@@ -84,6 +87,7 @@ p
 {
 	margin-top: 8px;
 	margin-bottom: 18px;
+	font-family: 'Baskerville Old Face';
 }
 
 div.sideContent

@@ -18,7 +18,10 @@
     <Tag
       Name="Search Input" />
     <Tag
-      Name="Menu" />
+      Name="Menu">
+      <Class
+        Name="1st Level" />
+    </Tag>
     <Tag
       Name="Search Submit Button" />
     <Tag
@@ -317,6 +320,8 @@
       <Class
         Name="RegisterUser" />
     </Tag>
+    <Tag
+      Name="Side Navigation Menu" />
   </Map>
   <SourceUrls>
     <Url
