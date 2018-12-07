@@ -12,13 +12,17 @@
     Link="/Content/PrintOnlyTopics/Copyright.htm"
     BreakType="pageLayout"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/Copyright.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/PrintOnlyTopics/PrintTOC.htm"
     BreakType="pageLayout"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
+  <TocEntry
+    Title="Home"
+    Link="/Content/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    StartSection="false" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/AllAboutMacon.htm"
@@ -43,21 +47,6 @@
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Music Scene.htm"
-    BreakType="none"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageType="firstright"
-    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Food.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Bars.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
     Link="/Content/PrintOnlyTopics/Resources.htm"
     BreakType="chapter"
     PageType="firstright"
@@ -66,7 +55,17 @@
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
     AutoEndOnLeftPage="disabled" />
   <TocEntry
-    Title="Home"
-    Link="/Content/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    StartSection="false" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Food.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Bars.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Music Scene.htm"
+    BreakType="none"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="firstright"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"></TocEntry>
 </CatapultToc>
