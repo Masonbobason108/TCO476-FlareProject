@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
+    Title="Home"
+    Link="/Content/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/AllAboutMacon.htm"></TocEntry>
   <TocEntry
@@ -23,7 +26,4 @@
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Bars.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
-  <TocEntry
-    Title="Home"
-    Link="/Content/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>

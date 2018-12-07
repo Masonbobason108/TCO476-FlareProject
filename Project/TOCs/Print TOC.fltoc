@@ -65,4 +65,8 @@
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
     AutoEndOnLeftPage="disabled" />
+  <TocEntry
+    Title="Home"
+    Link="/Content/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    StartSection="false" />
 </CatapultToc>
