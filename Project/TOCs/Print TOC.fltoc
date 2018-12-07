@@ -47,15 +47,6 @@
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/PrintOnlyTopics/Resources.htm"
-    BreakType="chapter"
-    PageType="firstright"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
-    AutoEndOnLeftPage="disabled" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
     Link="/Content/Food.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -68,4 +59,13 @@
     PageNumberReset="continue"
     PageType="firstright"
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/PrintOnlyTopics/Resources.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
+    AutoEndOnLeftPage="disabled" />
 </CatapultToc>

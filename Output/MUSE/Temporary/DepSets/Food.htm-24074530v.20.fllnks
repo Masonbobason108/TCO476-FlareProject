@@ -8,6 +8,8 @@
     <Link
       Url="Content/Resources/Images/The Rookery.jpg" />
     <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
       Url="Content/Resources/Images/Ocmulgee Brewpub.jpg" />
     <Link
       Url="Content/Resources/Images/Spud Dogs.jpg" />
@@ -21,6 +23,8 @@
   <LongLinks>
     <Link
       Url="Content/Resources/Images/The Rookery.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
     <Link
       Url="Content/Resources/Images/Ocmulgee Brewpub.jpg" />
     <Link
@@ -40,6 +44,9 @@
   <Variables />
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>
