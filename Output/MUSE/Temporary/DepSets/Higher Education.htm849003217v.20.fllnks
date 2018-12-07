@@ -10,6 +10,8 @@
     <Link
       Url="Content/Resources/Images/Wesleyan College.jpg" />
     <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
       Url="Content/Resources/Images/Mercer.jpg" />
     <Link
       Url="Content/Resources/Images/Middle Georgia State.jpg" />
@@ -21,6 +23,8 @@
       Url="Content/Resources/Images/Central Georgia Technical College.jpg" />
     <Link
       Url="Content/Resources/Images/Wesleyan College.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
     <Link
       Url="Content/Resources/Images/Mercer.jpg" />
     <Link
@@ -36,6 +40,11 @@
   <Variables />
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+    <Condition
+      Tag="Default.PrintOnly" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

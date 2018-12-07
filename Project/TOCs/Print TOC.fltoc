@@ -44,7 +44,7 @@
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Music Scene.htm"
-    BreakType="chapter"
+    BreakType="none"
     StartSection="false"
     PageNumberReset="continue"
     PageType="firstright"
