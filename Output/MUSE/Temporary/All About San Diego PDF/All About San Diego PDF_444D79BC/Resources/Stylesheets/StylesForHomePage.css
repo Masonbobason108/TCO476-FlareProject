@@ -68,14 +68,6 @@ p
 
 /* Content Section */
 
-#content-section
-{
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #e6e6e6;
-	margin-top: -50px;
-}
-
 #content-section h2
 {
 	font-weight: normal;
@@ -352,6 +344,11 @@ div.HomeMasterPageFooter > div:nth-child(3)
 {
 	width: 25%;
 	margin-left: 0%;
+}
+
+_generic_#content-section
+{
+	background-color: #ffffff;
 }
 
 /* Medium Layout */

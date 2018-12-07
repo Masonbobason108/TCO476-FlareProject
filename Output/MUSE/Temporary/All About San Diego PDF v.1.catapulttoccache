@@ -28,7 +28,7 @@
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/AllAboutMacon.htm"
-    BreakType="chapter"
+    BreakType="none"
     StartSection="false"
     PageNumberReset="continue"
     PageNumber="1"

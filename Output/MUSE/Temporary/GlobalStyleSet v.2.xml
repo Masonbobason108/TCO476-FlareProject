@@ -226,6 +226,8 @@
         Name="menu2" />
     </Tag>
     <Tag
+      Name="_generic_" />
+    <Tag
       Name="mcTableStyle" />
     <Tag
       Name="mcTableColumnStyle" />
