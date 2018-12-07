@@ -8,9 +8,9 @@
     <Link
       Url="Content/Resources/Images/reboot-macon-ga-1.jpg" />
     <Link
-      Url="Project/ConditionTagSets/Default.flcts" />
-    <Link
       Url="Content/Resources/Images/jt-macon-1024x683.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
     <Link
       Url="Content/Resources/Images/growler_usa-3443_web.jpg" />
     <Link
@@ -20,9 +20,9 @@
     <Link
       Url="Content/Resources/Images/reboot-macon-ga-1.jpg" />
     <Link
-      Url="Project/ConditionTagSets/Default.flcts" />
-    <Link
       Url="Content/Resources/Images/jt-macon-1024x683.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
     <Link
       Url="Content/Resources/Images/growler_usa-3443_web.jpg" />
     <Link
@@ -37,6 +37,8 @@
   <FileConditions />
   <FileTags />
   <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
     <Condition
       Tag="Default.PrintOnly" />
   </AllConditions>
